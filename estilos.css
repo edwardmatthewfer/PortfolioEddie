@@ -1,0 +1,64 @@
+body {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(243, 242, 252);
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(22, 22, 119);
+    color: gainsboro;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1#special {
+    background-color: rgb(88, 15, 51);
+}
+
+h1.normal {
+    background-color: brown;
+}
+
+img {
+    float: right;
+    width: 9%;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+p#pretty {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p.paragraph {
+    font-style: italic;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #4f274e;
+    padding: 3px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(74, 34, 90, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+a {
+    color: rgb(162, 24, 24);
+}
+
+#final-heading {
+    background-color: rgb(97, 133, 26);
+}
